@@ -97,7 +97,7 @@ function Projects() {
             <div className="project-item-wrapper">
           <div className="project-image">
             <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
-              <a href="/stories/warbler/warbler.html">
+              <a href="/stories/friender/friender.html">
               </a>
             </amp-story-player>
           </div>
@@ -111,19 +111,17 @@ function Projects() {
               <p>Friender is a Tinder clone for making new friends
               during quarantine. It utilizes Flask,
               Amazon S3, PostgreSQL, and SQLAlchemy on
-              the back-end and React on the front-end. Given the
-              concept, I decided which languages and frameworks to
-                        use. </p>
+              the back-end and React on the front-end.</p>
               <p>In Friender, logged in users are shown potential
               friends and can like or dislike each potential friend.
               Users are shown other users based on the folowing
               criteria:</p>
 
                         <ol className="project-OL">
-                  <li className="small-li">Other user's location is within friend radius</li>
-                  <li className="small-li">User's location is within other user's friend radius</li>
-                  <li className="small-li">User has not yet liked or disliked the other user</li>
-                  <li className="small-li">User has not been disliked yet by the other user</li>
+                  <li className="small-li">Other user's zip code is within current user's specified friend radius</li>
+                  <li className="small-li">Current user's zip code is within other user's specified friend radius</li>
+                  <li className="small-li">Current user has not yet liked or disliked the other user</li>
+                  <li className="small-li">Other user has not yet disliked the current user</li>
                 </ol>
 
               <p>This project allowed me to strategically think
@@ -133,17 +131,17 @@ function Projects() {
             </div>
             <div className="center" >
               <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="/stories/jobly/jobly.html">
+                href="/stories/friender/friender.html">
                 Full-screen story</a>
               </small>&#x25cf;
                         <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="http://claire-casey-jobly.surge.sh//">Demo</a>
+                href="http://claire-casey-friender.surge.sh/">Demo</a>
               </small>&#x25cf;
                         <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="https://github.com/clairelcasey/jobly-frontend">Github
+                href="https://github.com/clairelcasey/friender-frontend">Github
                                 Repository (front-end)</a></small>
               <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="https://github.com/clairelcasey/express-jobly">Github
+                href="https://github.com/clairelcasey/friender-backend">Github
                                 Repository (back-end)</a></small>
             </div>
           </div>
@@ -168,16 +166,13 @@ function Projects() {
               an ORM. On the frontend, it uses jQuery and Javascript
               D3. This project taught me how to combine front-end
               heavy visualizations with back-end authorization and
-              authentication. CLAIRE: I NEED TO DEPLOY THIS!!
+              authentication.
                         </p>
             </div>
             <div>
               <small className="projects-story-link"><a className="paragraph-link" target="_blank"
                 href="/stories/covid-tracker/covid-tracker.html">
                 Full-screen story</a>
-              </small>&#x25cf;
-                        <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="http://claire-casey-bart.surge.sh/">Demo</a>
               </small>&#x25cf;
                         <small className="projects-story-link"><a className="paragraph-link" target="_blank"
                 href="https://github.com/clairelcasey/covid_tracker">Github
