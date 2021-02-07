@@ -1,0 +1,28 @@
+.home-container {
+    background-image:url(./assets/media/background.jpg);
+    background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+  }
+  
+  .home-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+  }
+
+  .home-text {
+    margin: 4rem;
+    color:white;
+    font-size:30px;
+
+  }
+
+  .home-text:hover {
+      /* font-weight:bold; */
+    -webkit-text-stroke-width: 2px;
+    border-bottom: white solid 1px;
+  }
