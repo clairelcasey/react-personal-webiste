@@ -1,3 +1,5 @@
+import "./Projects.css"
+
 function Projects() {
 
   return (
@@ -5,12 +7,14 @@ function Projects() {
       <h1 className="project-title-master">PROJECTS.</h1>
       <div className="projects-wrapper">
 
-            <div className="project-item-wrapper">
+        <div className="project-item-wrapper">
           <div className="project-image">
-            <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
+            <amp-story-player role="button" layout="fixed" layout="fixed" width="600" height="400" >
               <a href="/stories/jobly/jobly.html">
               </a>
             </amp-story-player>
+            {/* <div className="next-button"><h1 className="arrow" >&#x2192;</h1></div> */}
+            <div className="click-help">Click to navigate through story.</div>
           </div>
           <div className="project-item-information-wrapper">
             <h2 className="project-title">Jobly</h2>
@@ -49,12 +53,13 @@ function Projects() {
           </div>
         </div>
 
-            <div className="project-item-wrapper">
+        <div className="project-item-wrapper">
           <div className="project-image">
             <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
               <a href="/stories/warbler/warbler.html">
               </a>
             </amp-story-player>
+            <div className="click-help">Click to navigate through story.</div>
           </div>
           <div className="project-item-information-wrapper">
             <h2 className="project-title">Warbler</h2>
@@ -94,12 +99,13 @@ function Projects() {
         </div>
 
 
-            <div className="project-item-wrapper">
+        <div className="project-item-wrapper">
           <div className="project-image">
             <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
               <a href="/stories/friender/friender.html">
               </a>
             </amp-story-player>
+            <div className="click-help">Click to navigate through story.</div>
           </div>
           <div className="project-item-information-wrapper">
             <h2 className="project-title">Friender</h2>
@@ -117,12 +123,12 @@ function Projects() {
               Users are shown other users based on the folowing
               criteria:</p>
 
-                        <ol className="project-OL">
-                  <li className="small-li">Other user's zip code is within current user's specified friend radius</li>
-                  <li className="small-li">Current user's zip code is within other user's specified friend radius</li>
-                  <li className="small-li">Current user has not yet liked or disliked the other user</li>
-                  <li className="small-li">Other user has not yet disliked the current user</li>
-                </ol>
+              <ol className="project-OL">
+                <li className="small-li">Other user's zip code is within current user's specified friend radius</li>
+                <li className="small-li">Current user's zip code is within other user's specified friend radius</li>
+                <li className="small-li">Current user has not yet liked or disliked the other user</li>
+                <li className="small-li">Other user has not yet disliked the current user</li>
+              </ol>
 
               <p>This project allowed me to strategically think
               through design decisions, including frameworks used,
@@ -147,12 +153,13 @@ function Projects() {
           </div>
         </div>
 
-            <div className="project-item-wrapper">
+        <div className="project-item-wrapper">
           <div className="project-image">
             <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
               <a href="/stories/covid-tracker/covid-tracker.html">
               </a>
             </amp-story-player>
+            <div className="click-help">Click to navigate through story.</div>
           </div>
           <div className="project-item-information-wrapper">
             <h2 className="project-title">New York State Covid Tracker</h2>
@@ -181,11 +188,12 @@ function Projects() {
           </div>
         </div>
 
-            <div className="project-item-wrapper">
+        <div className="project-item-wrapper">
           <div className="project-image">
             <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
               <a href="/stories/BART/BART.html"></a>
             </amp-story-player>
+            <div className="click-help">Click to navigate through story.</div>
           </div>
           <div className="project-item-information-wrapper">
             <h2 className="project-title">BART Estimated Departure Times</h2>
@@ -220,11 +228,12 @@ function Projects() {
           </div>
         </div>
 
-            <div className="project-item-wrapper">
+        <div className="project-item-wrapper">
           <div className="project-image">
             <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
               <a href="/stories/weather-vis/weather-vis.html"></a>
             </amp-story-player>
+            <div className="click-help">Click to navigate through story.</div>
           </div>
           <div className="project-item-information-wrapper">
             <h2 className="project-title">Historical Weather Visualization</h2>

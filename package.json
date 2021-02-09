@@ -1,8 +1,10 @@
 {
   "name": "react_personal_website",
+  "homepage": "http://claire-casey.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@icon/ionicons": "^5.4.0-alpha.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
