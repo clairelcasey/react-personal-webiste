@@ -10,11 +10,11 @@ function Connect() {
     <div className="contact-container">
       <div className="contact-wrapper">
         <div className="contact-information">
-          <a className="contact-logo-image" href="https://www.linkedin.com/in/claire-casey-892a18128/"><img src={linkedIn} alt="LinkedIn" ></img></a>
+          <a className="contact-logo-image" href="https://www.linkedin.com/in/clairelcasey/"target="_blank"><img src={linkedIn} alt="LinkedIn" ></img></a>
           <div className="contact-logo-name">LinkedIn</div>
         </div>
         <div className="contact-information">
-          <a className="contact-logo-image" href="https://github.com/clairelcasey"><img src={github} alt="Github" ></img></a>
+          <a className="contact-logo-image" href="https://github.com/clairelcasey"target="_blank"><img src={github} alt="Github" ></img></a>
           <div className="contact-logo-name">Github</div>
         </div>
         <div className="contact-information">

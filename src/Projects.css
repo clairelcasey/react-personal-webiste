@@ -1,12 +1,12 @@
 .click-help {
     text-align: end;
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s;
 }
-
+/* 
 .project-image:hover .click-help {
     opacity: 1;
-}
+} */
 
 
 /* .projects-image {

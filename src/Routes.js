@@ -15,9 +15,9 @@ function Routes() {
 
   return (
     <Switch>
-      <Route exact path="/">
+      {/* <Route exact path="/">
         <Home />
-      </Route>
+      </Route> */}
       <Route exact path="/about">
         <About />
       </Route>
@@ -27,7 +27,7 @@ function Routes() {
       <Route exact path="/connect">
         <Connect />
       </Route>
-      <Redirect to="/" />
+      <Redirect to="/about" />
     </Switch>
   );
 }

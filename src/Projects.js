@@ -23,14 +23,13 @@ function Projects() {
                         database  &#8226;  Node-Postgres  &#8226;  TDD</b>
 
             <div className="project-paragraph">
-              <p>Jobly is a full-stack application where users can
-              search for and apply to jobs. Jobly was built using a
+              <p>Jobly is a full-stack application that matches job seekers and employers. Jobly was built using a
               Node/ Express back-end and a React front-end. The
               application allows logged in users to browse and search
               hiring companies and jobs by name or company. It also
               allows users to edit their profile and apply for
                             specific jobs. </p>
-              <p>This project allowed me to experience test driven
+              <p>This project used test driven
               development (TDD) on the back-end and learn how to
               think through a detailed component hierarchy on the front-end.
                         </p>
@@ -41,7 +40,7 @@ function Projects() {
                 Full-screen story</a>
               </small>&#x25cf;
                         <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="http://claire-casey-jobly.surge.sh//">Demo</a>
+                href="http://claire-casey-jobly.surge.sh/">Demo</a>
               </small>&#x25cf;
                         <small className="projects-story-link"><a className="paragraph-link" target="_blank"
                 href="https://github.com/clairelcasey/jobly-frontend">Github
@@ -67,7 +66,7 @@ function Projects() {
                         database  &#8226;  SQLAlchemy</b>
 
             <div className="project-paragraph">
-              <p>Warbler is a Twitter clone and utilizes Flask,
+              <p>Warbler is a Twitter clone utilizing Flask,
               PostgreSQL, and SQLAlchemy, on the back-end and Jinja
               templating, jQuery, and Axios on the front-end. I
                             built this application off of a semi-functioning clone. </p>
@@ -85,7 +84,7 @@ function Projects() {
             </div>
             <div>
               <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="./stories/covid-tracker/covid-tracker.html">
+                href="./stories/warbler/warbler.html">
                 Full-screen story</a>
               </small>&#x25cf;
                         <small className="projects-story-link"><a className="paragraph-link" target="_blank"
@@ -93,6 +92,47 @@ function Projects() {
               </small>&#x25cf;
                         <small className="projects-story-link"><a className="paragraph-link" target="_blank"
                 href="https://github.com/clairelcasey/warbler">Github
+                                Repository</a></small>
+            </div>
+          </div>
+        </div>
+
+
+              
+
+        <div className="project-item-wrapper">
+          <div className="project-image">
+            <amp-story-player layout="fixed" width="600" height="400">
+              <a href="/stories/BART/BART.html"></a>
+            </amp-story-player>
+            <div className="click-help">Click to navigate through story.</div>
+          </div>
+          <div className="project-item-information-wrapper">
+            <h2 className="project-title">BART Estimated Departure Times</h2>
+            <b className="project-type">Geographic Data &#8226; Javascript D3 Visualizations</b>
+            <div className="project-paragraph">
+              <p>During a 2-day Hackathon, I created an interactive
+              visualization for Bay Area Rapid Transit (BART)
+              estimated departure times. 
+                        </p>
+              <p>The project uses Javascript D3 to spatially visualize
+              departure times at each station in the network. It
+              allowed me to work with topojson data and geographic
+              projections, and taught me the importance of time
+              management for individual sprints. I presented the
+              project at a lightning talk at the end of the Hackathon.
+                        </p>
+            </div>
+            <div>
+              <small className="projects-story-link"><a className="paragraph-link" target="_blank"
+                href="/stories/BART/BART.html">
+                Full-screen story</a>
+              </small>&#x25cf;
+                        <small className="projects-story-link"><a className="paragraph-link" target="_blank"
+                href="http://claire-casey-bart.surge.sh/">Demo</a>
+              </small>&#x25cf;
+                        <small className="projects-story-link"><a className="paragraph-link" target="_blank"
+                href="https://github.com/clairelcasey/BARTStations">Github
                                 Repository</a></small>
             </div>
           </div>
@@ -153,6 +193,52 @@ function Projects() {
           </div>
         </div>
 
+
+
+        <div className="project-item-wrapper">
+          <div className="project-image">
+            <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
+              <a href="/stories/weather-vis/weather-vis.html"></a>
+            </amp-story-player>
+            <div className="click-help">Click to navigate through story.</div>
+          </div>
+          <div className="project-item-information-wrapper">
+            <h2 className="project-title">Historical Weather Visualization</h2>
+            <b className="project-type">Javascript D3 Visualizations</b>
+
+            <div className="project-paragraph">
+              <p>This project was inspired by my younger sister
+              applying to colleges and my older sister's partner
+              applying to residency. Due to Covid, neither could visit
+              all of the locations they were interested in. So, I created a
+              historical weather visualization to give them a (virtual) taste of what
+              the weather is like in each of the locations.
+                        </p>
+              <p>
+                This project uses a
+                            <a className="paragraph-link" href="https://observablehq.com/d/2bd19fa1001f890e">
+                  Weatherwheel class </a>created by Eric Lo and data from the <a className="paragraph-link"
+                  href="https://www.worldweatheronline.com/developer/">World
+                                Weather API</a>. It taught me best practices
+                            when modifying classes created by others and
+                            best practices when performing data manipulation in Javascript.
+                        </p>
+            </div>
+            <div>
+              <small className="projects-story-link"><a className="paragraph-link" target="_blank"
+                href="/stories/weather-vis/weather-vis.html">
+                Full-screen story</a>
+              </small>&#x25cf;
+                        <small className="projects-story-link"><a className="paragraph-link" target="_blank"
+                href="https://clairecasey-weather-vis.herokuapp.com/">Demo</a>
+              </small>&#x25cf;
+                        <small className="projects-story-link"><a className="paragraph-link" target="_blank"
+                href="https://github.com/clairelcasey/weather-vis">Github
+                                Repository</a></small>
+            </div>
+          </div>
+        </div>
+
         <div className="project-item-wrapper">
           <div className="project-image">
             <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
@@ -188,89 +274,6 @@ function Projects() {
           </div>
         </div>
 
-        <div className="project-item-wrapper">
-          <div className="project-image">
-            <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
-              <a href="/stories/BART/BART.html"></a>
-            </amp-story-player>
-            <div className="click-help">Click to navigate through story.</div>
-          </div>
-          <div className="project-item-information-wrapper">
-            <h2 className="project-title">BART Estimated Departure Times</h2>
-            <b className="project-type">Geographic Data &#8226; Javascript D3 Visualizations</b>
-            <div className="project-paragraph">
-              <p>During a 2-day Hackathon, I created an interactive
-              visualization for Bay Area Rapid Transit (BART)
-              estimated departure times. This project combines my love
-              for programming with my passion for public
-              transportation.
-                        </p>
-              <p>The project uses Javascript D3 to spatially visualize
-              departure times at each station in the network. It
-              allowed me to work with topojson data and geographic
-              projections, and taught me the importance of time
-              management for individual sprints. I presented the
-              project at a lightning talk at the end of the Hackathon.
-                        </p>
-            </div>
-            <div>
-              <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="/stories/BART/BART.html">
-                Full-screen story</a>
-              </small>&#x25cf;
-                        <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="http://claire-casey-bart.surge.sh/">Demo</a>
-              </small>&#x25cf;
-                        <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="https://github.com/clairelcasey/BARTStations">Github
-                                Repository</a></small>
-            </div>
-          </div>
-        </div>
-
-        <div className="project-item-wrapper">
-          <div className="project-image">
-            <amp-story-player layout="fixed" layout="fixed" width="600" height="400">
-              <a href="/stories/weather-vis/weather-vis.html"></a>
-            </amp-story-player>
-            <div className="click-help">Click to navigate through story.</div>
-          </div>
-          <div className="project-item-information-wrapper">
-            <h2 className="project-title">Historical Weather Visualization</h2>
-            <b className="project-type">Javascript D3 Visualizations</b>
-
-            <div className="project-paragraph">
-              <p>This project came about as my younger sister was
-              applying to colleges and my older sister's partner was
-              applying to residency. Due to Covid, neither could visit
-              all of the locations they wanted to. So, I created a
-              historical weather visualization to give them a (virtual) taste of what
-              the weather is like in each of the locations.
-                        </p>
-              <p>
-                This project uses a
-                            <a className="paragraph-link" href="https://observablehq.com/d/2bd19fa1001f890e">
-                  Weatherwheel class </a>created by Eric Lo and data from the <a className="paragraph-link"
-                  href="https://www.worldweatheronline.com/developer/">World
-                                Weather API</a>. It taught me best practices
-                            when modifying classes created by others and
-                            best practices when performing data manipulation in Javascript.
-                        </p>
-            </div>
-            <div>
-              <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="/stories/weather-vis/weather-vis.html">
-                Full-screen story</a>
-              </small>&#x25cf;
-                        <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="https://clairecasey-weather-vis.herokuapp.com/">Demo</a>
-              </small>&#x25cf;
-                        <small className="projects-story-link"><a className="paragraph-link" target="_blank"
-                href="https://github.com/clairelcasey/weather-vis">Github
-                                Repository</a></small>
-            </div>
-          </div>
-        </div>
 
 
       </div>
